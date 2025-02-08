@@ -20,12 +20,12 @@
     <Grid>
 
         <ui:TextBlock HorizontalAlignment="Left" Margin="68,73,0,0" TextWrapping="Wrap" Text="Welcome to" VerticalAlignment="Top" FontSize="36"/>
-        <ui:Button x:Name="palletConfigurationButton" Content="Pallet Configuration" Margin="63,200,0,0" VerticalAlignment="Top" Height="48" Width="180" Icon="{ui:SymbolIcon Box24}" Click="palletConfigurationButton_Click"/>
-        <ui:Button x:Name="truckConfigurationButton" Content="Truck Configuration" Margin="248,200,0,0" Height="48" Width="190" VerticalAlignment="Top" Icon="{ui:SymbolIcon VehicleTruckCube24}" Click="truckConfigurationButton_Click"/>
+        <ui:Button x:Name="palletConfigurationButton" Content="Pallet Configuration" Margin="25,200,0,0" VerticalAlignment="Top" Height="48" Width="180" Icon="{ui:SymbolIcon Box24}" Click="palletConfigurationButton_Click"/>
+        <ui:Button x:Name="truckConfigurationButton" Content="Truck Configuration (coming soon)" Margin="210,200,0,0" Height="48" Width="268" VerticalAlignment="Top" Icon="{ui:SymbolIcon VehicleTruckCube24}" Click="truckConfigurationButton_Click" IsEnabled="False"/>
         <Label Content="v1.0-beta.3" VerticalAlignment="Top" HorizontalAlignment="Right" Width="80"/>
         <ui:TextBlock HorizontalAlignment="Left" Margin="183,130,0,0" TextWrapping="Wrap" Text="Precision packing made easy." VerticalAlignment="Top" FontStyle="Italic" FontSize="18"/>
         <Image HorizontalAlignment="Left" Height="48" Margin="266,81,0,0" VerticalAlignment="Top" Width="254" Source="/stacksolverlogo.png"/>
-        <ui:Button x:Name="exitButton" Content="Exit" Margin="443,200,0,0" VerticalAlignment="Top" Click="exitButton_Click" Icon="{ui:SymbolIcon ArrowExit20}" Width="77" Height="48"/>
+        <ui:Button x:Name="exitButton" Content="Exit" Margin="483,200,0,0" VerticalAlignment="Top" Click="exitButton_Click" Icon="{ui:SymbolIcon ArrowExit20}" Width="77" Height="48"/>
 
     </Grid>
 </Window>

@@ -88,13 +88,15 @@
             <MenuItem Header="_File" Height="54" HorizontalAlignment="Center" VerticalAlignment="Center" Width="58">
                 <MenuItem x:Name="exitMenuItem" Header="_Exit" Click="exitMenuItem_Click" />
             </MenuItem>
-            <MenuItem Header="Edit">
+            <MenuItem x:Name="sendToTruckConfigMenuItem" Header="Edit" Click="sendToTruckConfigMenuItem_Click">
                 <MenuItem Header="Pallet Type" IsEnabled="False" FontWeight="Bold"/>
                 <Separator/>
                 <MenuItem x:Name="epalMenuItem" Header="EUR-Pallet (EPAL)" Click="epalMenuItem_Click"/>
                 <MenuItem x:Name="industrialMenuItem" Header="Industrial Pallet" Click="industrialMenuItem_Click"/>
                 <MenuItem x:Name="asiaMenuItem" Header="Asia Pallet" Click="asiaMenuItem_Click"/>
                 <MenuItem x:Name="customSizeMenuItem" Header="Custom Size" Click="customSizeMenuItem_Click"/>
+                <Separator/>
+                <MenuItem Header="Send to truck config" IsEnabled="False"/>
             </MenuItem>
             <MenuItem  Header="_Help" Height="54" HorizontalAlignment="Center" VerticalAlignment="Center" Width="62">
                 <MenuItem x:Name="releasesMenuItem" Header="_Releases" Click="releasesMenuItem_Click"/>

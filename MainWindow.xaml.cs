@@ -912,6 +912,14 @@ namespace Stack_Solver
             pWghtlim.Text = "0";
         }
 
+        private void sendToTruckConfigMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            // TODO send data to truck configuration window
+            TruckConfigurationWindow truckConfigurationWindow = new TruckConfigurationWindow();
+            truckConfigurationWindow.Show();
+            this.Close();
+        }
+
         private void ShowAxes()
         {
             viewClass.ViewAxes(pallet, ref MainViewPort, totalHeight);
